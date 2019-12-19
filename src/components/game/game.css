@@ -1,0 +1,21 @@
+
+.game-container {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  display: grid;
+  grid-template-rows: repeat(4 1fr);
+  align-items: center;
+  justify-items: center;
+  margin-top: 20px;
+  background-color: rgb(42, 165, 236);
+  border: 2px solid rgb(88, 88, 233);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.pic:nth-of-type(1), .pic:nth-of-type(2), .pic:nth-of-type(3), .pic:nth-of-type(4) {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
