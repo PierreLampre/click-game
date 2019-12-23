@@ -11,9 +11,33 @@ class App extends Component {
   state = {
     characters,
     score: 0,
-    clickedTrue: []
+    clickedTrue: [],
+    h1: "Simpsons Clicky Game"
   }
 
+  heyTheyWon = () => {
+   
+    setTimeout(() => {
+      this.setState({ message: "Woo-Hoo! You Won!"})
+    }, 3000)
+
+    setTimeout();
+
+    this.setState({
+      message: "Simpsons Clicky Game"
+    })
+  }
+
+  heyTheyLost = () => {
+   
+    setTimeout(() => {
+      this.setState({ message: "Doh! You Lost!"})
+    }, 3000)
+
+    this.setState({
+      message: "Simpsons Clicky Game"
+    })
+  }
   reSortChars = () => {
     const characters = this.state.characters.sort(function(a, b){return 0.5 - Math.random()});
 
@@ -28,8 +52,12 @@ class App extends Component {
       clickedTrue: this.state.clickedTrue.concat(id)
     })
     this.reSortChars();
-  } else {
+  } else if (this.state.clickedTrue.length === 16){
     this.resetGame();
+    this.heyTheyWon();
+  } else{
+    this.resetGame();
+    this.heyTheyLost();
   }
   }
 
@@ -54,7 +82,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <h1>Simpsons Clicky Game</h1>
+          <h1>{this.state.h1}</h1>
         </header>
         <Score score = {this.state.score}/>
         <Game>
