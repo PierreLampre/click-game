@@ -3,96 +3,96 @@
     "id": 1,
     "name": "Homer",
     "image": "http://www.simpsoncrazy.com/content/pictures/homer/HomerSimpson9.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 2,
     "name": "Marge",
     "image": "http://www.simpsoncrazy.com/content/pictures/marge/MargeSimpson2.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 3,
     "name": "Lisa",
     "image": "http://www.simpsoncrazy.com/content/pictures/lisa/LisaSimpson11.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 4,
     "name": "Bart",
     "image": "http://www.simpsoncrazy.com/content/pictures/bart/BartSimpson19.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 5,
     "name": "Maggie",
     "image": "http://www.simpsoncrazy.com/content/pictures/maggie/MaggieSimpson3.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 6,
     "name": "Grampa",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Grampa4.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 7,
     "name": "CBGuy",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/ComicBookGuy1.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 8,
     "name": "TroyMcclure",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/TroyMcClure3.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 9,
     "name": "SideshowBob",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/SideshowBob2.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 10,
     "name": "Moe",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/MoeSzyslak4.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 11,
     "name": "Barney",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Barney3.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 12,
     "name": "Lenny",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Lenny4.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 13,
     "name": "MrBurns",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/MrBurns3.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 14,
     "name": "DrFrink",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/ProfessorFrink2.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 15,
     "name": "FatTony",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/fat-tony-1.gif",
-    "count": 0
+    "clicked": false
   },
   {
     "id": 16,
     "name": "Krusty",
     "image": "http://www.simpsoncrazy.com/content/pictures/regulars/Krusty4.gif",
-    "count": 0
+    "clicked": false
   }
 ]

@@ -5,8 +5,8 @@ import "./pic.css";
 function Pic(props) {
 
   return (
-    <div className="pic" onClick={() => props.reSortChars()} >
-      <img alt={props.name} src={props.image} id={props.name} key={props.id} />
+    <div className="pic" value={props.id} onClick={() => props.whenClicked(props.id)} >
+      <img alt={props.name} src={props.image} id={props.name} key={props.id} clicked={props.clicked} />
     </div>
   );
 }
