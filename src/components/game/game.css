@@ -19,3 +19,13 @@
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
+#uwin, #ulost {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  align-self: center;
+  justify-self: center;
+  display: none;
+}

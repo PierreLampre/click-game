@@ -47,6 +47,7 @@ class App extends Component {
       clickedTrue: []
     })
     console.log("Game lost and reset");
+    this.reSortChars();
   }
 
   render() {
