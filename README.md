@@ -6,9 +6,9 @@ I used the create-react-app package for the initial setup and gh-pages to deploy
 
 Here's a screenshot of the game:
 
-
+![alt text](https://github.com/PierreLampre/click-game/blob/master/public/s-shot.png?raw=true "Screenshot of App")
 
 My name is Justin Lampe.  I like to build things.  If you need something built reach out!
 
-(https://github.com/PierreLampre "My Github Repo")
-(https://pierrelampre.github.io/Responsive-Portfolio/ "My Portfolio")
+[My Repo](https://github.com/PierreLampre "My Github Repo")
+[My Portfolio](https://pierrelampre.github.io/Responsive-Portfolio/ "My Portfolio")
